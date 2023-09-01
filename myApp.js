@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://amaan:DB0518@cluster0.owzftwo.mongodb.net/fcc-mongodb-and-mongoose?retryWrites=true&w=majority",
+  "DBDetails-Hidden",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
